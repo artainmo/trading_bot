@@ -1,0 +1,48 @@
+============
+API
+============
+Application programmable interfaces, allow connexion between two applications.
+The application where the API is from, allows the application using the API access to some of its data.
+Plus it potentially allows to take actions on that application through the other application.
+
+===========
+REST API
+===========
+Representational state transfer is a software architectural style that defines
+a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style,
+called RESTful Web services, provide interoperability between computer systems on the Internet.
+Contains HTTP verbs or commands, that we call CRUD (Create, Read, Update, Delete).
+Tons of APIs already exist, that have their own commands based on the CRUD commands.
+To connect with rest APIs through the web you need to use HTTP. As you make an HTTP request to the server, the server will return you a BODY containing data in JSON and a HEADER,
+that contains additional information like an error code.
+Each API has own specific rules that should be explained in its API documentation.
+An api endpoint URL is the place that APIs send requests and where the resource lives, you need to use the CRUD commands to this url to interact with api.
+
+============
+Web
+============
+Computer contains internet browser, the web browser is a client that is used to connect to a server. You can that by using an universal resource locator (URL).
+URL starts with http(hypertext transfer protocol), http is like a language that servers can read, here the http makes a request and the server will return a response,
+most important part of the response is the body or html, that allows for page rendering.
+Each time you click on an url you make a http or get or read request of a specific page to the web server.
+Often times the server returns his answer or data in JSON(Javascript object notation), this allows to structure the data and is also called the resource.
+Here is a list of all HTTP verbs:
+Get, Put, Patch, Post, Delete
+
+===========
+CALL API
+===========
+To call your API you should always use HTTP. You can use it in different ways, one way is through curl.
+If you curl an URL, you will get as output all the front-end code of that page.
+curl -o filename : Will allow you to put the output inside a file
+To do an HTTP command: curl -X httpcommand
+To use authentification: curl -u authentifications... or if you need to authentificate through a header use curl -H authentifications...
+
+===========
+Other Vocabulary
+===========
+
+SDK
+-----
+A software development kit is a collection of software development tools in one installable package.
+They ease creation of applications by having compiler, debugger and perhaps a software framework.
