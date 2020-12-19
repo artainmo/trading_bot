@@ -1,3 +1,7 @@
+SET
+Set proper api authentification keys
+Unzip coins_data in other/rem and place it in trade_bot or simulation directory
+
 TRADE_BOT ALGO:
 Use python2.7 data_generator.py for constant uploading of coin data.
 To restart the program from begin, meaning reuploading all the coins data use the start argument, make sure to delete all the actual coins data files first.
