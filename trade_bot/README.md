@@ -3,7 +3,7 @@
 The default algorithm is profitable in bull markets based on the simulator. Still the possibility exist to customize the algorithm.
 
 ## Use
-In 'users_data/users.txt' set the proper coinbase API authentification keys.<br>
+In 'users_data/users.txt' set the proper coinbase API authentification keys and define the trading-bot's desired behavior.<br>
 If coins_data.zip is already present, unzip it and put it in this directory. Else coins_data has to be generated with `./gen_data.sh`, which can take time.
 
 To continue uploading the latest data `./gen_data.sh`. And finally launch the trading-bot `./start_user.sh cont`.<br>
