@@ -4,3 +4,5 @@ Different projects around cryptocurrency trading. From a trade tracking system, 
 The genetic-algorithm-based-trading-bot started off as an idea that hasn't been finalized after speculating on the total time it would necessitate to evolve being way too long.
 
 Look inside the appropriate folder to learn more about a specific project.
+
+To learn more about and understand the proposed trading algorithm elements, see 'documentation/crypto.txt'.
