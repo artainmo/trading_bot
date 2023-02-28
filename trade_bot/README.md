@@ -1,5 +1,10 @@
-SET Set proper api authentification keys Unzip coins_data in other/rem or elsewhere(too large dataset for git) and place it in trade_bot or simulation directory
+# trade_bot
 
-TRADE_BOT ALGO: Use python2.7 data_generator.py for constant uploading of coin data. To restart the program from begin, meaning reuploading all the coins data use the start argument, make sure to delete all the actual coins data files first. Use the cont argument to let the program continue with actual data.
+The default algorithm is profitable in bull markets based on the simulator. Still the possibility exist to customize the algorithm.
 
-Use python2.7 start_users.py to launch the client process that manages the crypto account given in the user.txt file.
+## Use
+In 'users_data/users.txt' set the proper coinbase API authentification keys.<br>
+If coins_data.zip is already present, unzip it and put it in this directory. Else coins_data has to be generated with `./gen_data.sh`, which can take time.
+
+To continue uploading the latest data `./gen_data.sh`. And finally launch the trading-bot `./start_user.sh cont`.<br>
+By writing `./start_user.sh start` after deleting all the coins_data, the program will restart from the beginning regenerating all the data.
