@@ -26,3 +26,6 @@ To test each possible algorithm is way too long, solution to this is to test eac
 Other solution could be to invent a completely different algorithm, maybe use deep learning for example.
 -> Use machine learning as it does that automatically and simultaneously for all features
 -> Or continue creating semi-random algos speed up with threads and processes
+
+## In the end...
+The genetic-algorithm-based-trading-bot started off as an idea that hasn't been finalized after speculating on the total time it would necessitate to evolve being way too long.
