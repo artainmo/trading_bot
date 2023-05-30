@@ -4,4 +4,4 @@ Different projects around cryptocurrency trading. From a trade tracking system, 
 
 Look inside the appropriate folder to learn more about a specific project.
 
-To learn more about and understand the proposed trading algorithm elements, see 'documentation/crypto.txt'.
+To learn more about and understand the proposed trading algorithm elements, see 'documentation/crypto_trading.txt'.
