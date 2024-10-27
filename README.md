@@ -4,8 +4,6 @@ Different projects around cryptocurrency trading. From a trade tracking system, 
 
 Look inside the appropriate folder to learn more about a specific project.
 
-To learn more about and understand the proposed trading algorithm elements, see 'documentation/crypto_trading.txt'.
-
 ## Documentation
 ### Vocabulary
 #### API
@@ -80,25 +78,21 @@ Always keep some standard coins (tether, btc, eth) so you can use them to buy al
 Use 10% funds for high-risk/high-reward investments.
 
 #### Support and resistance
-Or floors and ceilings, they are price areas that tend to act like barriers.
-Here we rely on what happened in the past with technical analysis.
-Support or floors, is where buying was interesting previously and resistance is
-where selling was interesting previously.
-You can look at weekly or even all graph to find floor and ceilings,
-to look at potentially interesting long-term or short-term investments.
+Or floors and ceilings, they are price areas that tend to act like barriers.<br>
+Here we rely on what happened in the past with technical analysis.<br>
+Support or floors, is where buying was interesting previously and resistance is where selling was interesting previously.<br>
+You can look at weekly or even all graphs to find floor and ceilings, to look at potentially interesting long-term or short-term investments.
 
-##### levels
-Different levels exist that all have their own floor and ceilings.
-They can be seen as consolidation trends that all have a floor and ceiling.
-First see in what level you are, then look if you are at floor or ceiling of this level.
-Lower levels are always better because they will probably end up in a longer upward trend,
-what will make short term investments way easier. Very useful when in a consolidation trends
---> level size in % based on highest value: example min-floor:115 max-ceiling:140 -> 25/140 * 100  * 2(becuase 50% is considered 100% or 25%)| 0 - 25%
+##### Levels
+Different levels exist that all have their own floor and ceilings.<br>
+They can be seen as consolidation trends that all have a floor and ceiling.<br>
+First see in what level you are, then look if you are at floor or ceiling of this level.<br>
+Lower levels are always better because they will probably end up in a longer upward trend.<br>
+--> level size in % based on highest value: example min-floor:115 max-ceiling:140 -> 25/140 * 100  * 2(becuase 50% is considered 100% or 25%)| 0 - 25%<br>
 --> position inside level | max-ceiling - mim-floor | 0 - 25%
 
-How to algorithm-find levels?
-Use the 26day ema, As long as 0,0012745% or less change/hour, you are inside the level where you can search
-for floor and ceiling, look only at last time you were in this level, the level should have a 24h range
+How does an algorithm find levels?<br>
+Use the 26day ema. As long as 0,0012745% or less change/hour you are inside the level where you can search for floor and ceiling, look only at last time you were in this level, the level should have a 24h range.
 
 #### Continuous and reversal patterns
 Are patterns that you can recognize from the beginning, knowing that the chance is high
