@@ -7,14 +7,14 @@ The goal of the genetics program is to find new potential algorithms in places n
 When inventing this algorithm by myself I did not know genetic-algorithms already exist. I came up with the concept on my own.
 
 ## Explanation
-Genetic program starts with one program that can have children on its own. Each program is technically a trading algorithm, the trading algorithm genes are written in the algo confiration file of the program, the program is a copy of the simulation algorithm, that is able to test on its own and puts its result in its own result file.
+Genetic program starts with one program that can have children on its own. Each program is technically a trading algorithm, the trading algorithm genes are written in the algo confiration file of the program, the program is a copy of the simulation algorithm, that is able to test on its own and puts its result in its own result file.<br>
 A program only survives and has children if it made profit.
 
-Each child will consist of the parent with a derivation on one variable. (One derivation means one variable value forward or backward)
-It will create a child for each isolated variable or "gene" with one forward or one backward value change.
+Each child will consist of the parent with a derivation on one variable (One derivation means one variable value forward or backward).<br>
+It will create a child for each isolated variable or "gene" with one forward or one backward value change.<br>
 The children are under the same rules as the parent and can become a parent themselves.
 
-If population becomes too big, virus kills the weakest, leaving only the strongest 10 algorithms alive, with 100 being the max population. Season change is made by external program that goes in all existing directories and kills the weakest ones, if more than 100 directories exist.
+If population becomes too big, virus kills the weakest, leaving only the strongest 10 algorithms alive, with 100 being the max population. Season change is made by external program that goes in all existing directories and kills the weakest ones, if more than 100 directories exist.<br>
 Let the seasons change, meaning here you change the market for all existing coins, this will kill some of them if they are not robust enough to survive in another "climate" or in another market. Season change is made by external program that goes into all the existing directories and changes their market.
 
 Create different continents, each continent contains processes that try to survive based on a particular climate, here the climate being an uptrend, downtrend, neutraltrend or all trend.
