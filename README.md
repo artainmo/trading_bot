@@ -87,265 +87,230 @@ You can look at weekly or even all graphs to find floor and ceilings, to look at
 Different levels exist that all have their own floor and ceilings.<br>
 They can be seen as consolidation trends that all have a floor and ceiling.<br>
 First see in what level you are, then look if you are at floor or ceiling of this level.<br>
-Lower levels are always better because they will probably end up in a longer upward trend.<br>
 --> level size in % based on highest value: example min-floor:115 max-ceiling:140 -> 25/140 * 100  * 2(becuase 50% is considered 100% or 25%)| 0 - 25%<br>
 --> position inside level | max-ceiling - mim-floor | 0 - 25%
 
-How does an algorithm find levels?<br>
-Use the 26day ema. As long as 0,0012745% or less change/hour you are inside the level where you can search for floor and ceiling, look only at last time you were in this level, the level should have a 24h range.
+Find levels<br>
+--> Use the 26day ema, As long as 0,0012745% or less change/hour, you are inside the level where you can search for floor and ceiling, look only at last time you were in this level, the level should have a 24h range.
 
 #### Continuous and reversal patterns
 Are patterns that you can recognize from the beginning, knowing that the chance is high
-of them continuing a certain way. If you know how they will evolve you can invest accordingly
+of them continuing a certain way. If you know how they will evolve you can invest accordingly.
 
-Beside the cat bounce, a simple algorithm would have it difficult to recognize big patterns like
-those, besides maybe the dead cat bounce.
-With image recognition, patterns could be found, learn more about patterns, in udemy course.
-Not completely true recognizing these patterns should be possible, you only need to
-protect against certain scales, if the bumps are under a certain size you should not consider it.
+With image recognition, patterns could be found. Learn more about patterns in udemy course.
 
 ##### Dead cat bounce
-Once a price strongly decreases in a short amount of time, you know it will bounce
-back up right after.
-If you recognize that you can quickly buy and sell at the bottom and high of the bounce.
---> descends more than 3% in 15min  or 5% in 1h--> if technical analysis calls for a raise that will start buy
---> skip levels if activated --> Do not buy as long as 1min ema crossover is not activated and to sell profit is not equal to al least 1%
---> Once dead cat bounce found use, the 1min crossover strategy, to buy and to sell
+Once a price strongly decreases in a short amount of time, you know it will bounce back up right after.<br>
+If you recognize that you can quickly buy at the bottom and sell high at the bounce.<br>
+--> descends more than 3% in 15min or 5% in 1h --> if technical analysis calls for a raise that will start buy<br>
+--> skip levels if activated --> Do not buy as long as 1min ema crossover is not activated and to sell profit is not equal to al least 1%<br>
+--> Once dead cat bounce found, use the 1min crossover strategy to buy and to sell
 
 ##### Head & shoulders
 3 peaks, with the middle one being the highest, the last peak will be followed
-by a strong descend.
+by a strong descend.<br>
 Inverse head & shoulders, 3 falls, with the middle one the lowest, the last descend
-will be followed by a strong raise.
-The difference between between the highest and lowest point in the head(pipe), is often equal
+will be followed by a strong raise.<br>
+The difference between between the highest and lowest point in the head (pipe), is often equal
 to how much the price will descend or raise afterwards.
 
-Once you recognize the 3shoulder being as high as the first shoulder and starting to descend,
-you should sell.
-If price has descended as much or lower than pipe and is raising again you should buy.
-Once you recognize the 3shoulder being as low as the first shoulder and starting to raise,
-you should buy.
-If price has raised as much or more than pipe and is lowering again you should buy.
---> If EMA is correct, you can avoid small bumps, and buy/sell correctly in combination with the dead cat bounce
+Once you recognize the third shoulder being as high as the first shoulder and starting to descend,
+you should sell.<br>
+If price has descended as much or lower than pipe and is raising again you should buy.<br>
+Once you recognize the third shoulder being as low as the first shoulder and starting to raise,
+you should buy.<br>
+If price has raised as much or more than pipe and is lowering again you should buy.<br>
+--> If EMA is correct, you can avoid small bumps, and buy/sell correctly in combination with the dead cat bounce.
 
 ##### Double tops & bottoms
-Double tops:
-If price raises one time to a ceiling, goes back down at least more than half of how much it raised initially
-, and goes back up to that same ceiling before going back down, to right under the floor it started out with.
-Now you know that the price will continue to go down until it hits a low, all of this in a relatively low timeframe.
-Double lows:
-If price lowers one time to a floor, goes back up at least more than half of how much it lowerd initially
-, and goes back down to that same floor before going back up, to right above the ceiling it started out with.
-Now you know that the price will continue to go up until it hits a high, all of this in a relatively low timeframe.
+Double tops:<br>
+If price raises one time to a ceiling, goes back down at least more than half of how much it raised initially, and goes back up to that same ceiling before going back down, to right under the floor it started out with. Now you know that the price will continue to go down until it hits a low, all of this in a relatively low timeframe.
+
+Double lows:<br>
+If price lowers one time to a floor, goes back up at least more than half of how much it lowerd initially, and goes back down to that same floor before going back up, to right above the ceiling it started out with. Now you know that the price will continue to go up until it hits a high, all of this in a relatively low timeframe.
 
 ##### Rounding bottoms & tops
-Not one peak but one half circle, thus meaning slow activity.
+Not one peak but one half circle, thus meaning slow activity.<br>
 The half circle should start and finish at same price.
-If rounding top, the half circle will be followed by a price descend that should
-be as long as the round pipe(difference between lowest and highest point in the half circle)
--Sell at rounding top
--Buy after steep price decrease
-If rounding bottom, the half circle will be followed by a price increase that should
-be as long as the round pipe.
--Buy at rounding bottom
--Sell at following price increase
+
+If rounding top, the half circle will be followed by a price descend that should be as long as the round pipe (difference between lowest and highest point in the half circle).<br>
+--> Sell at rounding top.<br>
+--> Buy after steep price decrease.
+
+If rounding bottom, the half circle will be followed by a price increase that should be as long as the round pipe.<br>
+--> Buy at rounding bottom.<br>
+--> Sell at following price increase.
 
 ##### Cup & handle
-Here we talk do not talk about a half circle or peaks, but something in between those,
-followed by a small cup, that will be followed by a steep increase in price for Cup.
-Thus you should buy in lowest point of second cup
-And sell
+Here we do not talk about a half circle or peaks, but something in between those, followed by a small cup, that will be followed by a steep increase in price for cup.<br>
+--> Thus you should buy in lowest point of second cup.
 
 ##### Wedges & triangles
-price compressing triangle:
-Peaks that start to have lower and lower ceilings and floors, once you hit 80%
-of the triangle it should break,
-it will break by descending as much as the height of the first peak.
+Price compressing triangle:<br>
+Peaks that start to have lower and lower ceilings and floors, once you hit 80% of the triangle it should break, it will break by descending as much as the height of the first peak.
 
-descending triangle:
-Peaks that start to have higher and higher floors, while the ceiling stays the same,
-once you hit 80% of the triangle it should break,
-it will break by raising as much as the height of the first peak.
+Descending triangle:<br>
+Peaks that start to have higher and higher floors, while the ceiling stays the same, once you hit 80% of the triangle it should break, it will break by raising as much as the height of the first peak.
 
-rising wedges:
-Ceiling price increasing more and more while floor price increasing more and more.
-once you hit 80% of the triangle it should break,
-it will break by descending until the initial starting point of the first peak.
+Rising wedges:<br>
+Ceiling price increasing more and more while floor price increasing more and more, once you hit 80% of the triangle it should break, it will break by descending until the initial starting point of the first peak.
 
-descending wedge:
-Ceiling price descending more and more while floor price descending more and more.
-once you hit 80% of the triangle it should break,
-it will break by raising until the initial peak.
+Descending wedge:<br>
+Ceiling price descending more and more while floor price descending more and more, once you hit 80% of the triangle it should break, it will break by raising until the initial peak.
 
 ##### Flags & pennants
-Steep increase followed by consolidation trend (up & down peaks, staying the same),
-will be followed by the same steep increase again once consolidation stops.
-Steep decrease followed by consolidation trend (up & down peaks, staying the same),
-will be followed by the same steep decrease again once consolidation stops.
+Steep increase followed by consolidation trend (up & down peaks, staying the same) will be followed by the same steep increase again once consolidation stops.<br>
+Steep decrease followed by consolidation trend (up & down peaks, staying the same) will be followed by the same steep decrease again once consolidation stops.
 
 #### Candle sticks
-A candlestick can be green(market increase) or red(market falling) plus it contains a body
-and a wick or even two wicks(one above and under body).
-Candlesticks are useful when trading as they show four price points (open, close, high, and low)
-throughout the period of time the trader specifies.
-Top body is opening/starting price, lowest body is closing/final price.
+A candlestick can be green (market increase) or red (market falling) plus it contains a body and a wick or even two wicks (one above and under body).<br>
+Candlesticks are useful when trading as they show four price points (open, close, high, and low) throughout the period of time the trader specifies.<br>
+Top body is opening/starting price, lowest body is closing/final price.<br>
 Top wick is highest price and lowest wick is lowest price.
 
 #### Risk management
-- Always put sell order at price 5-10% below long term floor level. To avoid
-losing too much if market cap keeps descending under the floor level.
-- If price 3% under the resistance level activate warning, sell once price descends 1% and warning is active.
- This will allow to maybe profit from a price that keeps raising above the resistance price.
+Always put sell order at price 5-10% below long term floor level to avoid losing too much if market cap keeps descending under the floor level.<br>
+If price 3% under the resistance level activate warning, sell once price descends 1% and warning is active. This will allow to maybe profit from a price that keeps raising above the resistance price.
 
 #### exponential moving averages(EMA) - technical analysis
-Gives coin marketrpice overtime upwards or downwards trends.
-Simple moving average is similar, only difference is that SMA looks more at long term.
-The EMA puts more weight on the recent data.
-Calculate sma:the sum of the stock's closing prices for the number of time
-periods in question, divided by that same number of periods
-To calculate ema, recent days have more weight
---> Very useful when in a down or upward market.
-EMAs with more days tend to look at long-term and won't signal for smaller bumps.
-50 day ema is a good long-term indicator for example.
--> If ema is above actual curve, sign market will lower.
+Gives coin market price overtime upwards or downwards trends.<br>
+Simple moving average is similar, only difference is that SMA looks more at long term.<br>
+The EMA puts more weight on the recent data.<br>
+Calculate sma: the sum of the stock's closing prices for the number of time periods in question, divided by that same number of periods.<br>
+To calculate ema, recent days have more weight.<br>
+--> Very useful when in a down or upward market.<br>
+EMAs with more days tend to look at long-term and won't signal for smaller bumps.<br>
+50 day ema is a good long-term indicator for example.<br>
+-> If ema is above actual curve, sign market will lower.<br>
 -> If ema is lower than actual curve, sign market will increase.
 
 ##### EMA crossover strategy
-Take 20day and 9day EMA | or period not day, which means a certain period devided by 9 or 20
-If 9day ema crosses over 20day ema + both emas have upward trend -> Time to buy
-If 9day ema crosses under 20day ema + both emas have downward trend -> Time to sell
-For daytrading you can even use 1h and 15min emas
-Most accurate for creating buying/selling signals
--> moving upward 12ema(5%) + 26ema(5%)
--> 12day ema over 26day ema (15%)
+Take 20day and 9day EMA or period not day, which means a certain period devided by 9 or 20.<br>
+If 9day ema crosses over 20day ema + both emas have upward trend -> Time to buy<br>
+If 9day ema crosses under 20day ema + both emas have downward trend -> Time to sell<br>
+For daytrading you can even use 1h and 15min emas<br>
+Most accurate for creating buying/selling signals<br>
+-> moving upward 12ema(5%) + 26ema(5%)<br>
+-> 12day ema over 26day ema (15%)<br>
 --> the number 12 or 26 indicate the number of ema periods, one ema period can be a minute, hour, day, ....
 
 #### Parabolic SAR
-Able to find sudden changes in market price directions, good for daytrading.
-In graphs, comes as series of dots either above or under current price.
-If under price -> Uptrend -> buy
-If above price -> Downtrend -> sell
-Use it for daytrading or in combination with other techniques signals,
-because it can trigger alot of signals even when not necessary.
+Able to find sudden changes in market price directions, good for daytrading.<br>
+In graphs, comes as series of dots either above or under current price.<br>
+If under price -> Uptrend -> buy<br>
+If above price -> Downtrend -> sell<br>
+Use it for daytrading or in combination with other techniques signals, because it can trigger alot of signals even when not necessary.<br>
 --> Understand this better to combine it with emas as strategy.
 
 #### MACD indicator
-Moving average convergence divergence, is a trend-following indicator that shows
-the relationship between two exponential moving averages.
-The MACD line is calculated through substracting the ema26 from the ema12.
+Moving average convergence divergence, is a trend-following indicator that shows the relationship between two exponential moving averages.<br>
+The MACD line is calculated through substracting the ema26 from the ema12.<br>
 The signal line is equal to a 9ema of the macd line.
-Uptrend signal:
-- MACD line crosses above signal line
-- Both lines slope upwards
--> extra indicator strong upward MACD is above the zero line or simple a positive number
-Downtrend signal:
-- MACD line crosses below signal line
-- Both lines slope downwards
+
+Uptrend signal: MACD line crosses above signal line | Both lines slope upwards<br>
+-> extra indicator strong upward MACD is above the zero line or simply a positive number
+
+Downtrend signal: MACD line crosses below signal line | Both lines slope downwards<br>
 If downtrend you need to sell, it means price will soon come down.
 
-MACD can show a lot of false buy and sell signals, it should only be used to
-warn you about a potential market direction change, EMA crossover should be used
-to confirm the next market direction.
-If you want to create a maker and not taker trade (for lower fees), you need to
-predict if the price is going to increase, you can use the MACD as a second confirmation
-next to EMA for the price that will keep raising.
-MACD is not the best signal indicator
--> You can ignore it completely and focus instead on 20 - 9cross emas
+MACD can show a lot of false buy and sell signals, it should only be used to warn you about a potential market direction change, EMA crossover should be used to confirm the next market direction.<br>
+If you want to create a maker and not taker trade (for lower fees), you need to predict if the price is going to increase, you can use the MACD as a second confirmation next to EMA for the price that will keep raising.<br>
+--> MACD is not the best signal indicator. You can ignore it completely and focus instead on 20 - 9cross emas
 
 #### Relative strenght index
-RSI = 100 - 100/(1-RSI)
-RSI is the average gain of n periods minus the average loss of n periods.
-RSI provides, sell(>80%) or buy(<20%), signals when stock is oversold or overbought
--> Can give false signals, should be used with caution or maybe in combination with emacrossovers
--> Can be used as extra confirmation of buying/selling if playing with probabilities.
+RSI = 100 - 100/(1-RSI)<br>
+RSI is the average gain of n periods minus the average loss of n periods.<br>
+RSI provides, sell(>80%) or buy(<20%), signals when stock is oversold or overbought.<br>
+--> Can give false signals, should be used with caution or maybe in combination with ema crossovers<br>
+--> Can be used as extra confirmation of buying/selling if playing with probabilities.
 
 #### Buy or sell conclusion
-Later make orders instead of take orders could be used to save on fees once you make 50k+ investments
-FOR EACH COIN FIND IF A DEAL(90% - 125%)
-compare current price with max price last year of coin with high - low | 0 - 25%
-Check for any patterns | for buy pattern 0 - 25%:
-- Cat bounce --> 1min ema crossover (45%)
-- check where inside the level, floor - ceiling | -> 1hema crossover(25%), 15minema crossover(20%)
-- free / no pattern found = 12.5% -> 1hema crossover(25%), 15minema crossover(20%)
---> Buy pattern is equal to resulting % and sell pattern is equal to 50 - resulting %
-After always check if technical analysis gives a flag -> parabolic SAR(15%) + emas crossover(45%) + RSI(15%)
---> Check technical analysis separately for buy or sell
-AFTER COMPARE WHAT COIN HAS BEST DEAL BY CREATING A POINT SYSTEM IN %
-try also to diversify, thus do not invest everything in one deal
-If multiple above 90%,
-take highest and divide to-buy-price between highest and those that are in 10% under range of highest
+Make orders instead of take orders can be used to save on fees once you make 50k+ investments.<br>
+FOR EACH COIN FIND IF A DEAL (90% - 125%)<br>
+compare current price with max price last year of coin with high - low | 0 - 25%<br>
+Check for any patterns | for buy pattern 0 - 25%:<br>
+*Cat bounce --> 1min ema crossover (45%)<br>
+*check where inside the level, floor - ceiling | -> 1h ema crossover(25%), 15min ema crossover(20%)<br>
+*free / no pattern found = 12.5% -> 1h ema crossover(25%), 15min ema crossover(20%)<br>
+--> Buy pattern is equal to resulting % and sell pattern is equal to 50 - resulting %<br>
+After always check if technical analysis gives a flag -> parabolic SAR(15%) + emas crossover(45%) + RSI(15%)<br>
+--> Check technical analysis separately for buy or sell<br>
+AFTER COMPARE WHAT COIN HAS BEST DEAL BY CREATING A POINT SYSTEM IN %<br>
+try also to diversify, thus do not invest everything in one deal<br>
+If multiple above 90% take highest and divide to-buy-price between highest and those that are in 10% under range of highest.<br>
 
-Sell protection rule, sell if 1% under bought price
-Each tiem a deal is bought print sreen in, coins class have a dictionary that contains reason of buy or sell
+Sell protection rule, sell if 1% under bought price.<br>
+Each time a deal is bought print sreen in, coins class have a dictionary that contains reason of buy or sell.
 
 ##### algorithm
-Take crypto history of all cryptos wanting to be traded -> BTC, ETH, EOS, XRP, LTC
-Enter loop with 5s delays
-Capture all cryptos prices and add those to price history with specific trading time
-Check if any good deal for Selling
-Check if any good deal for Buying
-Loop again
+Take crypto history of all cryptos wanting to be traded -> BTC, ETH, EOS, XRP, LTC<br>
+Enter loop with 5s delays<br>
+Capture all cryptos prices and add those to price history with specific trading time<br>
+Check if any good deal for Selling<br>
+Check if any good deal for Buying<br>
+Loop again<br>
 
-#### Latest algo
-Complicated algorithm isn't necessarily better and increases chances of mistakes, for now this simpler algorithm will be used
-- RSI is a buy and sell signal
-- 1h + 15min ema12-26 crossover is buy and sell signal
-- cat_bounce  + 1min 12-26ema crossover is signal to buy and has specific sell signal, 1min ema12-26 crossover
+Latest algo:<br>
+Complicated algorithm isn't necessarily better and increases chances of mistakes, for now this simpler algorithm will be used.<br>
+- RSI is a buy and sell signal.<br>
+- 1h + 15min ema12-26 crossover is buy and sell signal.<br>
+- cat_bounce  + 1min 12-26ema crossover is signal to buy and has specific sell signal, 1min ema12-26 crossover.<br>
 
-#### Latest algo
-Complicated algorithm isn't necessarily better and increases chances of mistakes, for now this simpler algorithm will be used
-- 1h + 15min ema12-26 crossover is buy and sell signal
-- For even more security but potential opportunity losses, you could add a second condition looking at the 1day emas,
-to see if you are in an up or down trend market more in longer term
+Latest algo:<br>
+Complicated algorithm isn't necessarily better and increases chances of mistakes, for now this simpler algorithm will be used.<br>
+- 1h + 15min ema12-26 crossover is buy and sell signal.<br>
+- For even more security but potential opportunity losses, you could add a second condition looking at the 1day emas, to see if you are in an up or down trend market more in longer term.
 
 #### FINAL GOAL
-When investing more than 50k, maker fees become interesting and you can set limit orders in place, small time after signal has been set to continuum price.
-IMPLEMENT AI
-- give AI ema-crossovers (day, 15min, 1h, 1min), sar and sri data too next to the general data, try to maximize the data you get.
-- Use image recognition on the market graphs so that the AI can recognize trends
+When investing more than 50k, maker fees become interesting and you can set limit orders in place, small time after signal has been set to continuum price.<br>
+IMPLEMENT AI<br>
+--> give AI ema-crossovers (day, 15min, 1h, 1min), sar and sri data too next to the general data, try to maximize the data you get.<br>
+--> Use image recognition on the market graphs so that the AI can recognize trends.<br>
+
+However, more and more trading bots are coming to the market. If they all follow the same algorithm, no one will win. Only the best will win who can adapt to the behavior of other trading bots. This may be an impossible race to win without more investment.
 
 #### Other
-Coinbase is used to look at the different cryptocurrencies with clear graphs.
-Coinbase pro is used to do the actual trading.
+Coinbase is used to look at the different cryptocurrencies with clear graphs.<br>
+Coinbase pro is used to do the actual trading.<br>
 Delta is used to get custom notifications for all cryptocurrencies when they reach a certain price.
 
 ##### Two techniques are used
 Those two techniques can be used together, initial buy with long term intent and in the meanwhile do medium-term trading.
 
-LONGTERM
+LONGTERM<br>
 Buy when in bear market, very low and sell when in bull market.
 
-MEDIUMTERM
-Look at common ups and down of the moment, sell when high and you know it will lower afterward. If it lowers until a certain amount buy back at that lower amount, otherwise buy back at same price.
+MEDIUMTERM<br>
+Look at common ups and down of the moment, sell when high and you know it will lower afterward. If it lowers until a certain amount buy back at that lower amount, otherwise buy back at same price.<br>
 Use limit orders to do things in advance. Each night put buying limit as the lowest of prior 24h and selling limit as highest of prior 24hours.
 
 ##### General Advice
-Never be emotional about trading.
-Don’t follow others advice look at facts yourself.
+Never be emotional about trading.<br>
+Don’t follow others' advice look at facts yourself.
 
 ##### Coinbase Pro trading
 Lower fees than with coinbase.
 
-You can invest in two different ways, either as a taker or as a maker.
-Makers pay between 0.04-0.5%fees.
-Takers pay between 0-0.5%fees.
+You can invest in two different ways, either as a taker or as a maker.<br>
+Makers pay between 0.04-0.5%fees.<br>
+Takers pay between 0-0.5%fees.<br>
 To pay less in fees with taker invest you should invest at least 50k.
 
 You are a taker when your order gets filled immediately.
 
-You are a maker when your order is not immediately matched but put into an order book, waiting for another customer to match your order. You can use this method which is favorable due to less fees, when you are waiting in advance for a certain price point and know for sure you want to buy at that price point.
+You are a maker when your order is not immediately matched but put into an order book, waiting for another customer to match your order. You can use this method, which is favorable due to less fees, when you are waiting in advance for a certain price point and know for sure you want to buy at that price point.
 
-Three types of orders:
-Market order - general order that gets filled immediately
-Stop order - Choose price(stop price) at which order (limit price) should be executed
-Limit order - Choose price at which order should be executed with additional settings
+Three types of orders:<br>
+Market order - general order that gets filled immediately<br>
+Stop order - Choose price (stop price) at which order (limit price) should be executed<br>
+Limit order - Choose price at which order should be executed with additional settings<br>
 
-Limit order settings
-Post only - allow taker
-If to-be-filled order already exists, and your order will be filled immediately, thus you will pay taker fees. Post only protects against that while allow taker not.
+Limit order settings<br>
+Post only - allow taker<br>
+If to-be-filled order already exists, and your order will be filled immediately, thus you will pay taker fees. Post only protects against that while allow taker not.<br>
 
-When selecting a limit order, expand the Advanced section to reveal the following Time in Force policies:
-Good 'Til Canceled (GTC) - This order will be placed on the order book and remain valid until you cancel it
-Good Til Tine (GTT) - This order will be placed on the order book and remain valid until you cancel it or the timing you indicated ended.
-Immediate or Cancel (IOC) - This order will be placed and if it is not immediately filled, it will automatically be cancelled and removed from the order book
+When selecting a limit order, expand the Advanced section to reveal the following Time in Force policies:<br>
+Good 'Til Canceled (GTC) - This order will be placed on the order book and remain valid until you cancel it.<br>
+Good Til Tine (GTT) - This order will be placed on the order book and remain valid until you cancel it or the timing you indicated ended.<br>
+Immediate or Cancel (IOC) - This order will be placed and if it is not immediately filled, it will automatically be cancelled and removed from the order book.<br>
 Fill or Kill (FOC) - This order will only complete if the entire amount can be matched. Partial matches are not filled with this order type and will not execute
