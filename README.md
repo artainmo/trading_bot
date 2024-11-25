@@ -266,8 +266,11 @@ When investing more than 50k, maker fees become interesting and you can set limi
 IMPLEMENT AI<br>
 --> give AI ema-crossovers (day, 15min, 1h, 1min), sar and sri data too next to the general data, try to maximize the data you get.<br>
 --> Use image recognition on the market graphs so that the AI can recognize trends.<br>
+--> To improve AI even more, web scraping bot could search for news articles and particular keywords in articles as world events in the news can impact trading markets.
 
 However, more and more trading bots are coming to the market. If they all follow the same algorithm, no one will win. Only the best will win who can adapt to the behavior of other trading bots. This may be an impossible race to win without more investment.
+
+--> Too much competition, instead participate in numerai. To learn more about this infested industry look at high frequency trading.
 
 #### Other
 Coinbase is used to look at the different cryptocurrencies with clear graphs.<br>
